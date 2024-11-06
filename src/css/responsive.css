@@ -1,0 +1,80 @@
+@media (min-width: 1300px) {
+    html body main section{
+        display: flex;
+        align-items: center;
+        display: grid;
+        grid-template-areas: 
+                             "supervisor team calculator"
+                             "supervisor karma calculator";
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    body main{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    body .supervisor{
+        grid-area: supervisor;
+    }
+    body .team{
+        grid-area: team;
+    }
+    body .karma{
+        grid-area: karma;
+    }
+    body .calculator{
+        grid-area: calculator;
+    }
+
+    body .cabecalho{
+        width: 100vw;
+    }
+
+    body .quadro{
+        width: 400px;
+        height: 290px;
+        margin: 16px;
+    }
+    body .cabecalho h1{
+        font-size: 42px;
+        padding-top: 30px;
+    }
+    body .cabecalho h2{
+        font-size: 42px;
+    }
+    body .cabecalho p{
+        width: 600px;
+        font-size: 17.5px;
+    }
+    body .quadro{
+        padding: 32px 40px 32px 36px;
+    }
+    body .quadro h2{
+        font-size: 23px;
+    }
+    body .quadro p{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    body .supervisor{
+        background-position: 293px 172px;
+        background-size: 70px 70px;
+    }
+    body .team{
+        background-position: 293px 172px;
+        background-size: 70px 70px;
+    }
+    body .karma{
+        background-position: 293px 172px;
+        background-size: 70px 70px;
+    }
+    body .calculator{
+        background-position: 293px 172px;
+        background-size: 70px 70px;
+    }
+}
