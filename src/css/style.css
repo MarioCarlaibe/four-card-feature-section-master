@@ -3,11 +3,102 @@
 body{
     font-family: "Poppins", sans-serif;
     font-size: 15px;
+    background-color: var(--Very-Light-Gray);
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho{
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho h1{
+    font-weight: 200;
+    font-size: 24.5px;
+    padding-top: 84px;
+    color: var(--Very-Dark-Blue);
+}
+
+.cabecalho h2{
+    font-weight: 600;
+    font-size: 24.5px;
+    color: var(--Very-Dark-Blue);
+}
+
+.cabecalho p{
+    font-weight: 400;
+    padding: 16px 0 51px;
+    line-height: 1.6;
+    color: var(--Grayish-Blue);
+}
+
+.quadro{
+    background-color: white;
+    width: 310px;
+    height: 223px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 35px -26px #000000;
+    padding: 22px 26px;
+    margin: 24px 0;
+}
+
+.quadro h2{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--Very-Dark-Blue);
+}
+
+.quadro p{
+    font-weight: 400;
+    font-size: 13.3px;
+    line-height: 1.8;
+    color: var(--Grayish-Blue);
+    margin-top: 3px;
+}
+
+.supervisor{
+    border-top: 4px solid var(--Cyan);
+    background-image: url(../images/icon-supervisor.svg);
+    background-repeat: no-repeat;
+    background-position: 225px 135px;
+    background-size: 58px 58px;
+}
+
+.team{
+    border-top: 4px solid var(--Red);
+    background-image: url(../images/icon-team-builder.svg);
+    background-repeat: no-repeat;
+    background-position: 225px 135px;
+    background-size: 58px 58px;
+}
+
+.karma{
+    border-top: 4px solid var(--Orange);
+    background-image: url(../images/icon-karma.svg);
+    background-repeat: no-repeat;
+    background-position: 225px 135px;
+    background-size: 58px 58px;
+}
+
+.calculator{
+    border-top: 4px solid var(--Blue);
+    background-image: url(../images/icon-calculator.svg);
+    background-repeat: no-repeat;
+    background-position: 225px 135px;
+    background-size: 58px 58px;
 }
 
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    margin-bottom: 25px;
 }
     
 .attribution a { 
